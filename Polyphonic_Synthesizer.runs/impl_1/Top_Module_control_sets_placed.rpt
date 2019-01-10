@@ -1,0 +1,92 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Thu Jan 10 22:38:47 2019
+| Host         : DESKTOP-RLRGNKR running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Module_control_sets_placed.rpt
+| Design       : Top_Module
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    28 |
+| Unused register locations in slices containing registers |    58 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|    16+ |           28 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             120 |           23 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             384 |           48 |
+| Yes          | No                    | No                     |              22 |            6 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             336 |          118 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|     Clock Signal    |           Enable Signal           |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++---------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|  uut2/uut1/S[0]     |                                   |                                   |                5 |             22 |
+|  uut4/inst/clk_out1 | uut3/uut1/vsenable                |                                   |                6 |             22 |
+|  uut4/inst/clk_out1 |                                   |                                   |                7 |             24 |
+|  CLK_IBUF_BUFG      | uut1/NoteDs/counter0_carry__0_n_2 | uut1/NoteDs/p_0_in                |               12 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteA/counter0_carry__0_n_2  | uut1/NoteA/p_0_in                 |                9 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteAs/counter0_carry__0_n_2 | uut1/NoteAs/p_0_in                |                8 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteB/counter0_carry__0_n_2  | uut1/NoteB/p_0_in                 |               10 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteGs/counter0_carry__0_n_2 | uut1/NoteGs/p_0_in                |                9 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteC/counter0_carry__0_n_2  | uut1/NoteC/p_0_in                 |               10 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteCs/counter0_carry__0_n_2 | uut1/NoteCs/p_0_in                |               10 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteD/counter0_carry__0_n_2  | uut1/NoteD/p_0_in                 |                9 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteG/counter0_carry__0_n_2  | uut1/NoteG/p_0_in                 |                9 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteE/counter0_carry__0_n_2  | uut1/NoteE/p_0_in                 |               11 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteF/counter0_carry__0_n_2  | uut1/NoteF/p_0_in                 |                9 |             28 |
+|  CLK_IBUF_BUFG      | uut1/NoteFs/counter0_carry__0_n_2 | uut1/NoteFs/p_0_in                |               12 |             28 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteDs/counter[0]_i_1__2_n_0 |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteA/counter[0]_i_1__8_n_0  |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteAs/counter[0]_i_1__9_n_0 |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteB/counter[0]_i_1__10_n_0 |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteGs/counter[0]_i_1__7_n_0 |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteC/counter[0]_i_1_n_0     |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteCs/counter[0]_i_1__0_n_0 |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteD/counter[0]_i_1__1_n_0  |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteG/counter[0]_i_1__6_n_0  |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteE/counter[0]_i_1__3_n_0  |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteF/counter[0]_i_1__4_n_0  |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   | uut1/NoteFs/counter[0]_i_1__5_n_0 |                4 |             32 |
+|  CLK_IBUF_BUFG      |                                   |                                   |               11 |             74 |
++---------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+
+

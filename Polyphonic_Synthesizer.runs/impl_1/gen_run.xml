@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1547148991">
+  <File Type="BITSTR-BMM" Name="Top_Module_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Top_Module_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Top_Module_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Top_Module_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Top_Module.tcl"/>
+  <File Type="OPT-TIMING" Name="Top_Module_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Top_Module_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Top_Module_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Top_Module_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Top_Module_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Top_Module.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Top_Module_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Top_Module_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Top_Module_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Top_Module_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Top_Module_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Top_Module_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Top_Module_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Top_Module_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Top_Module_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Top_Module_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Top_Module_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Top_Module.bgn"/>
+  <File Type="PLACE-TIMING" Name="Top_Module_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Top_Module_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Top_Module.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Top_Module_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Top_Module_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Top_Module_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Top_Module.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Top_Module_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Top_Module_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Top_Module_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Top_Module_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Top_Module_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Top_Module_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Top_Module.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Top_Module_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Top_Module.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Top_Module_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Top_Module_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Top_Module.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Top_Module_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Top_Module_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Top_Module_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Top_Module_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Top_Module_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Top_Module_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Top_Module_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Top_Module_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Top_Module_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Top_Module_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Top_Module_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Top_Module_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Top_Module_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Top_Module_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Top_Module_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Top_Module_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Top_Module_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Top_Module_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Top_Module_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Top_Module.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Top_Module_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Top_Module.rbt"/>
+  <File Type="BITSTR-NKY" Name="Top_Module.nky"/>
+  <File Type="BG-DRC" Name="Top_Module.drc"/>
+  <File Type="RDI-RDI" Name="Top_Module.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Clock_Divider.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Segment_Decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Segment_Driver.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Wave_Generator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Wave_Summation.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_controller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_draw.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_synch.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Top_Module.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Top_Module"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>
