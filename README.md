@@ -11,6 +11,8 @@ This synthesizer uses PWM to create analog waves, BASYS3 has 100 MHz clock and t
 
 I tried to replicate musical instruments but did not happen as i wished. Maybe you can create them, waveforms of the instrument are in waveform folder, maybe the waveforms are wrong. Don't limit yourself with your FPGA inputs, you can use external controlling devices through pins. Modify XDC file and add some physical input devices.
 
+From proposal - advanced you may get an idea, using a wireless bluetooth module which transmits the data from gyro module to FPGA to determine which note should play at the moment. But this works only for monophonic system. If you want to see a similar functioning device check out The Glide (https://www.youtube.com/channel/UCyT01UxHoUvvgwIsGVUG8pw) a new musical instrument, i believe it can be implemented on an FPGA but a little bit harder though.
+
 If you have BASYS3
   - You can directly use bitstream file above to program device
   - First switch does nothing
