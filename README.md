@@ -22,3 +22,6 @@ If you have another FPGA device:
   - Change the XDC file accordingly to device and you choice of controlling
   - Generate Bitstream file for the chosen device
   - Program the device
+  
+If you don't have any FPGA device:
+  - Well, sorry. Have nice day.
