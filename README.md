@@ -4,7 +4,7 @@ Polyphonic Synthesizer for FPGA device (BASYS3)
 Project is created in VIVADO 2018.2
 Can be restored in VIVADO by using XPR file
 
-You can reach bitstream file for BASYS3 at C:\Users\Tolga YILDIZ\Desktop\Git\Polyphonic_Synthesizer\Polyphonic_Synthesizer.runs\impl_1\Top_Module.bit
+You can reach bitstream file for BASYS3 at Polyphonic_Synthesizer.runs\impl_1\Top_Module.bit
 You can also use this file as a memory configuration file for BASYS3
 
 You can read the report in the "proposals and reports" folder. You can also watch this little introduction, which includes a brief explanation and a demostration, video for the project: https://www.youtube.com/watch?v=5W7BYjQx-zw
