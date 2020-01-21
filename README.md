@@ -31,7 +31,7 @@ If you have another FPGA device:
   - You still need an audio output device
   
 If you don't have any FPGA device:
-  - Well, sorry. Have nice day. You can implement this design in other devices as well.
+  - Well, sorry. Have nice day.
   
 For further reading about audio synthesis and effects: https://pdfs.semanticscholar.org/f90b/fdf17612af1d77208f7b3514d2843ec0a82f.pdf
 
