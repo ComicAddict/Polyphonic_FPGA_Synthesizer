@@ -36,3 +36,4 @@ If you don't have any FPGA device:
 For further reading about audio synthesis and effects: https://pdfs.semanticscholar.org/f90b/fdf17612af1d77208f7b3514d2843ec0a82f.pdf
 
 
+some changes
